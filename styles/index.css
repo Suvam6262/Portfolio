@@ -1,0 +1,111 @@
+
+*{
+    border: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.name{
+    font-size: 2rem;
+    background-image: url(/images/svg-hub-029.svg);
+}
+.name-first{
+    display: flex;
+}
+.name-second{
+    color: rgb(204, 141, 206);
+}
+
+.sub-head:hover{ 
+    text-decoration:underline black;
+    opacity: 0.9;
+}
+
+p{
+    margin: 5px;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgb(93, 93, 95) , rgb(162, 162, 165), rgb(147, 147, 155), rgb(126, 129, 133), rgb(122, 123, 124), rgb(79, 80, 80));
+}
+.home-banner{
+    background-image: linear-gradient(to right, rgb(93, 93, 95) , rgb(162, 162, 165), rgb(146, 146, 150), rgb(123, 124, 126), rgb(122, 123, 124), rgb(79, 80, 80));
+}
+
+.profile{
+    /* overflow: hidden; */
+    margin-bottom: -200px;
+}
+
+.profile-descripton{
+    position: relative;
+}
+
+.profile-descripton-bg-image{
+    display: block;
+}
+
+.profile-descripton h3{
+    position: absolute;
+    top: 4%;
+    left: 0%;
+    padding: 50px 60px;
+}
+
+.background-image{
+    background-size: cover ;
+    background-image: url(/images/svg-hub-029.svg);
+    background-attachment:fixed;
+}
+
+.about{
+    padding-top: 250px;
+}
+
+.progress-bar{
+    background-color: grey;
+}
+
+.education ul li, .education ul li p {
+    width: 70vw;
+}
+
+.education ul li ul li {
+    list-style-type:square;
+}
+
+.vr{
+    margin-left: 5%;
+    width: 5px;
+    opacity: 1;
+}
+
+.my-projects{
+    margin-top: 0;
+    padding: 30px;
+}
+
+.my-projects-background{
+    background-image: linear-gradient(to right, rgb(93, 93, 95) , rgb(162, 162, 165), rgb(146, 146, 150), rgb(123, 124, 126), rgb(122, 123, 124), rgb(79, 80, 80));
+}
+
+.my-projects img{
+    height: 500px;
+    width: 400px;
+}
+
+.contact{
+    background-image: linear-gradient(to right, rgb(122, 122, 124) , rgb(149, 149, 155), rgb(132, 132, 134), rgb(146, 148, 151), rgb(140, 140, 145), rgb(156, 158, 158));
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+.contact form{
+    padding: 50px;
+}
+
+footer{
+    color: rgb(145, 144, 144);
+}
