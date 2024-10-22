@@ -10,7 +10,7 @@ body{
 
 .name{
     font-size: 2rem;
-    background-image: url(/svg-hub-029.svg);
+    background-image: url(svg-hub-029.svg);
 }
 .name-first{
     display: flex;
@@ -56,7 +56,7 @@ p{
 
 .background-image{
     background-size: cover ;
-    background-image: url(/svg-hub-029.svg);
+    background-image: url(svg-hub-029.svg);
     background-attachment:fixed;
 }
 
